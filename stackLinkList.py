@@ -19,7 +19,7 @@ class StackLinkList:
 		while(q.next != None):
 			print('|'+str(q.data)+'|'+str(id(q.next))+'|---->',end = '')
 			q = q.next
-		# we have print the last node
+		# we have to print the last node
 		print('|'+str(q.data)+'|'+'X'+'|') 
 
 	def createList(self, data):
